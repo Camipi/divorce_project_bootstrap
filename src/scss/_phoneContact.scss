@@ -1,0 +1,52 @@
+.phoneContact {
+	background-color: #E9E8E7;
+}
+
+.phoneContact__text {
+	background-color: #E9E8E7;
+	padding-left: 5vh;
+}
+
+.phoneContact__doubts {
+	background-color: #A52622;
+	color: #fff;
+	font-weight: 900;
+	padding: .8vh;
+	text-align: center;
+}
+
+.phoneContact__number {
+	color: #000;
+	font-weight: 900;
+	font-size: 1.3em;
+
+	span {
+		padding: 3vh 3vh 3vh 0;
+	}
+}
+
+
+@media (max-width: 600px) {
+
+	.phoneContact__text {
+		padding-left: 0;
+	}
+	 
+	.phoneContact__number {
+
+		span {
+			padding: 0;
+			margin-left: 3vh;
+			text-align: center;
+			margin-top: -10vh;
+		}
+
+		img {
+			width: 20%;
+			height: auto;
+			margin: 2vh 0 2vh 8vh;
+		}
+
+	}
+}
+

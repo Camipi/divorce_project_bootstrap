@@ -1,0 +1,56 @@
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+
+.contentInfo__Text {
+	padding-top: 5vh;
+
+	strong {
+		font-size: 2em;
+	}
+
+	a {
+		padding: 0 1vh 0 0;
+	}
+	
+	p {
+		margin-bottom: 2vh;
+	}
+
+	button {
+		width: 100%;
+		border: none;
+		background-color: #D49636;
+		padding: 1vh;
+		color: #fff;
+		font-weight: 700;
+		border-radius: 5px;
+	}
+
+	button:hover {
+		background-color: #ffc107;
+		color: #fff;
+	}
+	
+}
+
+.contentInfo__buttons {
+	margin-bottom: 1vh;
+}
+
+.contentInfo {
+	.col-md-5 {
+		padding: 0;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.contentInfo__buttons {
+
+		button {
+			margin-bottom: 1vh;
+		}
+	}
+}

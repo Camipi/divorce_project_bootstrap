@@ -1,0 +1,24 @@
+.testimonials {
+	background-color: #66100A;
+	color: #fff;
+	padding: 10vh;
+	text-align: center;
+
+	i {
+		font-size: 3em;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.testimonials {
+
+		.testimonials__first {
+			margin-bottom: 8vh;
+		}
+
+		.testimonials__second {
+			margin-bottom: 8vh;
+		} 
+	}
+}
